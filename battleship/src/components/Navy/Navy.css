@@ -1,0 +1,8 @@
+.ship > h3 > img{
+    height: 24px;
+}
+.ship p img{
+    width:18px;
+    height: 18px;
+    vertical-align: middle;
+}

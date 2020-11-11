@@ -1,0 +1,55 @@
+.App {
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+}
+
+.game{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
+.game > div{
+  width:100%;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  
+  .game > div:nth-child(1){
+    display: flex;
+  }
+
+  .game > div:nth-child(1) > div:nth-child(1){
+    width:40%;
+  }
+  .game > div:nth-child(1) > div:nth-child(1){
+    width:60%;
+  }
+  
+}
+
+@media only screen and (min-width: 1024px){
+
+
+  .game{
+      flex-direction: row;
+  }
+
+
+  .game > div:nth-child(1){
+    width:40%;
+  }
+  .game > div:nth-child(2){
+    width:60%;
+  }
+  
+
+  .game > div:nth-child(1) > div{
+    width:100%;
+  }
+
+  
+}
+

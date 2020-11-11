@@ -1,0 +1,9 @@
+.field{
+display: flex;
+flex-wrap: wrap;
+}
+
+.field > div{
+width: calc(100%/10);
+padding-top: calc(100%/10);
+}

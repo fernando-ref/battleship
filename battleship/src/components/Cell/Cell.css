@@ -1,0 +1,15 @@
+.cell{
+    background-color: #F6F6F6;
+    border:1px solid #B6B6B6;
+    box-sizing: border-box;
+}
+
+.hit{
+    background:url('./../../assets/Hit.png') no-repeat center center;
+    background-size: cover;
+}
+
+.miss{
+    background:url('./../../assets/Miss.png') no-repeat center center;
+    background-size: cover;
+}
